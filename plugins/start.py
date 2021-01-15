@@ -9,6 +9,6 @@ async def start(client, message):
         [InlineKeyboardButton(
             "ʀᴇᴘᴏʀᴛ ʙᴜɢs✔️", url="https://t.me/hackingUC")]
     ])
-    welcomed = f"ʜᴇʏ <b>{message.from_user.first_name}</b>\n🔆 ᴡᴇʟᴄᴏᴍᴇ ᴛᴏ ᗰ ʏᴏᴜᴛᴜʙᴇʀ /help ғᴏʀ ᴍᴏʀ ɪɴғᴏ"
+    welcomed = f"🔆 ʜᴇʏ <b>{message.from_user.first_name}</b>\n🔆 ᴡᴇʟᴄᴏᴍᴇ ᴛᴏ ᗰ ʏᴏᴜᴛᴜʙᴇʀ /help ғᴏʀ ᴍᴏʀ ɪɴғᴏ"
     await message.reply_text(welcomed, reply_markup=joinButton)
     raise StopPropagation
